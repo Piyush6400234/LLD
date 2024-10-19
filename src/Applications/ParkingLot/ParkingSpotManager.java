@@ -3,9 +3,9 @@ import java.util.*;
 // Ideally both the Spot Managers should be singleton.
 public abstract class ParkingSpotManager {
     protected List<ParkingSpot> spots;
-    public ParkingSpotManager(List<ParkingSpot> spots){
+    public ParkingSpotManager(){
         this.spots = new ArrayList<>();
-        this.spots.addAll(spots);
+//        this.spots.addAll(spots);
         // use APIs to fetch the ParkingSpots data From DataBase/InMemory.
     }
     public void addParkingSpots(List<ParkingSpot> spots){ // this is to feed the ParkingManager

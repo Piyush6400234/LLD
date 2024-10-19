@@ -1,10 +1,16 @@
 package Applications.ParkingLot;
 import java.util.*;
-// Ideally both the Spot Managers should be singleton.
+// TwoWheelerSpotManager is Singleton.
 public class TwoWheelerSpotManager extends ParkingSpotManager{
-
-    public TwoWheelerSpotManager(List<ParkingSpot> spots){
-        super(spots);
+    private static TwoWheelerSpotManager spotManager;
+    private TwoWheelerSpotManager(){
+        super();
+    }
+    public static TwoWheelerSpotManager getInstance(){
+        if(spotManager == null){
+            spotManager = new TwoWheelerSpotManager();
+        }
+        return spotManager;
     }
     @Override
     public ParkingSpot findParkingSpace(VehicleType type){

@@ -3,15 +3,15 @@ import java.util.*;
 
 public class Ticket {
     private int entryTime;
-    private Vehicle vehicle;
     private ParkingSpot spot;
+    private Vehicle vehicle;
     private int ticketId;
 
-    public Ticket(int entryTime, Vehicle vehicle, ParkingSpot spot){
+    public Ticket(int entryTime, ParkingSpot spot){
         this.entryTime = entryTime;
-        this.vehicle = vehicle;
         this.spot = spot;
         Random random = new Random();
+        this.vehicle = spot.getVehicle();
         this.ticketId = 1000+ random.nextInt(9000);
     }
     public int getEntryTime(){
