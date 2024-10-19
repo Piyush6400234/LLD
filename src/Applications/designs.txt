@@ -1,0 +1,19 @@
+Design Notify-Me Button Functionality
+Design  Pizza Billing System
+Design  Parking Lot
+Design  Snake n Ladder game
+Design Elevator System
+Design Car Rental System
+Design Logging System
+Design Tic-Tac-Toe game
+Design BookMyShow & Concurrency handling
+Design Vending Machine
+Design ATM
+Design Chess game
+Design File System
+Design Splitwise
+Splitwise Simplify Algorithm / Optimal Accounting Balancing
+
+
+
+Design Snake Game

@@ -1,0 +1,92 @@
+Here’s an ordered breakdown of structural design patterns in Low-Level Design (LLD), ranked from easiest to toughest,
+based on their implementation complexity, abstraction level, and interaction between objects.
+
+================================================= :Adapter Pattern (Easiest): =====================================
+
+1). Purpose: Allows incompatible interfaces to work together by acting as a bridge between them.
+2). Difficulty: Easy
+3). Why: It usually involves creating a simple wrapper class that converts one interface to another.
+4). Example: Adapting a legacy API to work with a modern system, such as adapting a List interface to work with a Stack interface.
+Key Concepts: Interface conversion, wrapper classes.
+
+================================================= :Decorator Pattern: ===========================================
+
+1). Purpose: Dynamically adds behavior or responsibilities to an object without modifying its original code, using composition rather than inheritance.
+2). Difficulty: Easy to Moderate
+3). Why: It involves creating decorator classes that wrap around existing objects, which is conceptually simple but can lead to complex chains of decorators.
+4). Example: Adding extra features like scroll bars or borders to a UI window object dynamically.
+Key Concepts: Composition, dynamic behavior extension.
+
+================================================= :Facade Pattern: =============================================
+
+1). Purpose: Provides a simplified interface to a complex subsystem or set of interfaces, hiding complexity behind a single interface.
+2). Difficulty: Easy to Moderate
+3). Why: It involves creating a high-level wrapper around complex subsystems, which simplifies client interaction but may require careful design of the facade to balance simplicity and functionality.
+4). Example: A home automation system where the facade simplifies controlling multiple subsystems like lights, AC, and security.
+Key Concepts: Interface simplification, subsystem abstraction.
+
+================================================= :Proxy Pattern: ==============================================
+
+1). Purpose: Provides a surrogate or placeholder for another object to control access to it, adding some extra behavior such as lazy loading, logging, or access control.
+2). Difficulty: Moderate
+3). Why: It involves creating a proxy object that controls access to the actual object, which can introduce complexity in managing this delegation.
+4). Example: A virtual proxy for a heavy object that delays its loading until needed (e.g., loading an image only when it's needed).
+Key Concepts: Access control, delegation, lazy initialization.
+
+================================================= :Bridge Pattern: =============================================
+
+1). Purpose: Decouples an abstraction from its implementation so that both can vary independently.
+2). Difficulty: Moderate
+3). Why: It involves splitting an abstraction into two hierarchies (abstraction and implementation), which requires careful design to manage both aspects.
+4). Example: Separating the abstraction of a remote control (e.g., button press) from the implementation of the device being controlled (TV, Radio, etc.).
+Key Concepts: Decoupling, interface and implementation abstraction.
+
+================================================= :Composite Pattern: ==========================================
+
+1). Purpose: Composes objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly.
+2). Difficulty: Moderate to Challenging
+3). Why: It requires creating recursive structures and handling both leaf and composite objects in the same manner, which can lead to complexity.
+4). Example: A file system where directories contain both files and other directories.
+Key Concepts: Recursive structures, part-whole hierarchy.
+
+================================================= :Flyweight Pattern: ==========================================
+
+1). Purpose: Reduces memory usage by sharing as much data as possible with similar objects; often used when many objects with similar characteristics are created.
+2). Difficulty: Challenging
+3). Why: It requires designing shared and intrinsic state, and managing the complexity of separating and handling extrinsic and intrinsic states.
+4). Example: Rendering a text document where each character shares a common representation, but with different positions (intrinsic vs extrinsic state).
+Key Concepts: Memory optimization, object sharing.
+
+====================================================== :OBSERVATIONS: ============================================
+
+
+
+--> Composite: This pattern can be intricate when dealing with deep hierarchies and recursive operations.
+--> Decorator: The flexibility of decorators can lead to complex compositions, making it difficult to understand and maintain.
+--> Bridge: The separation of abstraction and implementation can be challenging, especially when dealing with multiple levels of abstraction.
+
+
+
+==================================================== : OBSERVATIONS: =============================================
+
+which are the structural patterns that use abstract classes?
+bridge, decorator
+
+
+which are the structural patterns that uses "super" initializations and at how many layers?
+bridge - Only at one level, decorator - at one level
+
+Which structural patterns have Two Interface classes?
+Adapter - One for target, one for adaptee.
+
+
+Which structural pattern have only one interface?
+All except Adapter(two interface) and Facade(Does not require any interface)
+
+
+
+---- :One cool structure: ----
+abstract implements interface
+abstract compose One interface's implementation
+And there are many extensions of abstract
+

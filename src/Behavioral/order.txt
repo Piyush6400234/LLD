@@ -1,0 +1,84 @@
+Here’s an order of difficulty for common behavioral design patterns in Low-Level Design (LLD), ranging from the easiest
+to the most challenging. The difficulty level is based on factors like implementation complexity, learning curve, and
+the degree of abstraction or interaction between objects.
+
+========================================== :Strategy Pattern (Easiest): ========================================
+
+1). Purpose: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern lets the algorithm vary independently from the clients that use it.
+2). Difficulty: Easy
+3). Why: It involves creating multiple interchangeable algorithms (strategies) and is mostly about interface-based polymorphism.
+4). Example: Different sorting algorithms (quick sort, merge sort) that can be swapped depending on the context.
+Key Concepts: Interface, polymorphism.
+
+
+=========================================== :Template Method Pattern: ========================================
+
+1). Purpose: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
+2). Difficulty: Easy to Moderate
+3). Why: Requires defining a superclass with a template method and abstract methods for steps that need subclass-specific implementations.
+4). Example: Cooking recipe where certain steps are fixed, but others (like specific ingredients) can vary.
+Key Concepts: Abstract classes, inheritance, method overriding.
+
+=========================================== :Observer Pattern: ===============================================
+
+1). Purpose: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+2). Difficulty: Moderate
+3). Why: Requires understanding of subject-observer relationships, registration, and event-driven systems.
+4). Example: UI frameworks where UI elements (observers) are updated based on changes to data models (subjects).
+Key Concepts: Event handling, publisher-subscriber, loose coupling.
+
+============================================ :Chain of Responsibility Pattern: ===============================
+
+1). Purpose: Allows an object to send a command without knowing which object will handle it. Multiple objects can handle the request, but the responsibility is passed along a chain.
+2). Difficulty: Moderate
+3). Why: Involves creating chains of objects that handle requests in sequence, with potential recursion or delegation.
+4). Example: Customer support escalation (first handled by a junior, then escalated to senior levels).
+Key Concepts: Request handling, delegation, loose coupling.
+
+=========================================== :Command Pattern:  ===============================================
+
+1). Purpose: Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
+2). Difficulty: Moderate to Challenging
+3). Why: Requires the creation of commands, command invokers, and receivers. It adds flexibility to undo/redo operations.
+4). Example: Remote control where each button is mapped to different command objects (like turn on/off, change volume).
+Key Concepts: Encapsulation of operations, undo/redo.
+
+=========================================== :Iterator Pattern: ===============================================
+
+1). Purpose: Provides a way to access elements of a collection sequentially without exposing its underlying representation.
+2). Difficulty: Moderate to Challenging
+3). Why: Involves implementing both internal and external iteration. Managing iteration state while keeping the collection details abstract can be tricky.
+4). Example: Iterating over a collection like a list or a tree without knowing its internal structure.
+Key Concepts: Traversal, encapsulation, state management.
+
+=========================================== :State Pattern: ==================================================
+
+1). Purpose: Allows an object to change its behavior when its internal state changes. The object will appear to change its class.
+2). Difficulty: Challenging
+3). Why: It involves creating distinct state classes and switching behaviors dynamically at runtime, which increases design complexity.
+4). Example: A traffic light that changes behavior based on its state (red, green, yellow).
+Key Concepts: State machines, dynamic behavior changes.
+
+=========================================== :Memento Pattern: ===============================================
+
+1). Purpose: Captures and externalizes an object’s internal state so that the object can be restored to this state later without violating encapsulation.
+2). Difficulty: Challenging
+3). Why: It requires saving and restoring the internal state in a controlled manner, ensuring encapsulation and handling potential memory issues.
+4). Example: Undo functionality in text editors where you can save and revert back to previous states.
+Key Concepts: State capture and restoration, encapsulation.
+
+=========================================== :Mediator Pattern: ==============================================
+
+1). Purpose: Defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other directly.
+2). Difficulty: Challenging
+3). Why: Involves managing complex interactions among objects by centralizing communication in a mediator, making the system design more intricate.
+4). Example: Chat rooms where users communicate indirectly through the chat room (mediator).
+Key Concepts: Decoupling, centralized communication.
+
+=========================================== :Interpreter Pattern (Toughest): ===============================
+
+1). Purpose: Defines a grammar for a language and uses an interpreter to interpret sentences in that language.
+2). Difficulty: Toughest
+3). Why: It requires understanding formal grammars, building abstract syntax trees, and implementing parsing logic, which is complex and domain-specific.
+4). Example: SQL query interpreter or mathematical expression parser.
+Key Concepts: Parsing, grammar interpretation, abstract syntax trees.

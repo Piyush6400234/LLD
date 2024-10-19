@@ -1,0 +1,10 @@
+1. factory
+2. abstract factory
+3. observer
+4. singleton
+
+5. Builder
+6. Decorator
+7. Adapter
+8. Strategy
+9. Facade
