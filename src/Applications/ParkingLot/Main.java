@@ -39,8 +39,10 @@ public class Main {
 
 
         ParkingSpotManagerFactory factory = new ParkingSpotManagerFactory();
-        ParkingSpotManager fourWheelerManager = factory.getParkingSpotManager(VehicleType.FourWheeler, fourWheelerSpots);
-        ParkingSpotManager twoWheelerManager = factory.getParkingSpotManager(VehicleType.TwoWheeler, twoWheelerSpots);
+        ParkingSpotManager fourWheelerManager = factory.getParkingSpotManager(VehicleType.FourWheeler);
+        ParkingSpotManager twoWheelerManager = factory.getParkingSpotManager(VehicleType.TwoWheeler);
+        fourWheelerManager.addParkingSpots(fourWheelerSpots);
+        twoWheelerManager.addParkingSpots(twoWheelerSpots);
         EntranceGate entryGate1 = new EntranceGate(1);
         ExitGate exitGate1 = new ExitGate();
 //        -----------------------------------------------------
@@ -48,7 +50,7 @@ public class Main {
         Vehicle car1 = new Vehicle("523654", VehicleType.FourWheeler);
 
 
-        ParkingSpot spot1 = entryGate1.findParkingSpot(VehicleType.FourWheeler, fourWheelerManager);
+        ParkingSpot spot1 = entryGate1.findParkingSpot(VehicleType.FourWheeler);
         if(spot1 == null){
             System.out.println("spot null");
             return;
@@ -60,7 +62,7 @@ public class Main {
         System.out.println("is Spot empty: "+ticket1.getSpot().isEmpty());
         System.out.println("Vehicle No: "+ticket1.getVehicle().getVehicleNo());
         System.out.println("removing vehicle at exit gate");
-        exitGate1.removeTicket(ticket1, fourWheelerManager);
+        exitGate1.removeTicket(ticket1);
 
 
     }

@@ -1,14 +1,13 @@
 package Applications.ParkingLot;
 import java.util.*;
 public class ParkingSpotManagerFactory {
-    ParkingSpotManager getParkingSpotManager(VehicleType type, List<ParkingSpot> spots){
+    static ParkingSpotManager  getParkingSpotManager(VehicleType type){
         if(type == VehicleType.TwoWheeler){
-            return new TwoWheelerSpotManager(spots);
+            return TwoWheelerSpotManager.getInstance();
         }
         else if(type == VehicleType.FourWheeler){
-            return new FourWheelerSpotManager(spots);
+            return FourWheelerSpotManager.getInstance();
         }
-
         return null;
     }
 }
