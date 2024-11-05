@@ -11,8 +11,31 @@ Design Vending Machine
 Design ATM
 Design Chess game
 Design File System
-Design Splitwise
-Splitwise Simplify Algorithm / Optimal Accounting Balancing
+Design Split-wise
+Split-wise Simplify Algorithm / Optimal Accounting Balancing.
+
+Design True Caller
+Design CarBooking Service like Ola, Uber
+Design Online Hotel Booking System
+Design Library Management system
+Design Traffic Light System
+Design Meeting Scheduler
+Design Online Voting System
+Design Inventory Management System
+Design Cache Mechanism
+Design LinkedIn
+Design Amazon
+Design Airline Management System
+Design Stock Exchange System
+Design Learning Management System
+Design a calender Application
+Design LLD of Payment system
+Design Chat based system
+Design  Food Delivery app like swiggy
+Design Community discussion Platform
+Design Restaurant Management System
+Design Bowling Alley Machine
+Design LLD of Rate Limiter
 
 
 
