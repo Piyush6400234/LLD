@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36cd59ef-80ff-4760-b788-d470e5d9c22b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Applications/InventoryManagement/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/EntranceGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/EntranceGate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/ExitGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/ExitGate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/FourWheelerSpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/FourWheelerSpotManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/ParkingSpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/ParkingSpotManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/ParkingSpotManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/ParkingSpotManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/ParkingLot/TwoWheelerSpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ParkingLot/TwoWheelerSpotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Applications/CarRental/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/CarRental/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Applications/cricbuzz/Innings/BallDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/cricbuzz/Innings/BallDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Applications/designs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/designs.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +92,7 @@
     &quot;Application.structural.decorator.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/piyus/Desktop/system_design/system&quot;,
@@ -104,7 +100,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Applications.ParkingLot.Main">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Applications.InventoryManagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Applications.InventoryManagement.Main" />
       <module name="system" />
@@ -172,9 +168,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Applications.ParkingLot.Main" />
         <item itemvalue="Application.Applications.InventoryManagement.Main" />
-        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.creational.abstractFactory.Car.Main" />
       </list>
@@ -190,6 +186,17 @@
       <updated>1719170519546</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
