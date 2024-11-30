@@ -18,7 +18,7 @@ Better Approach - Use of Decorator pattern
     calling the parent method.
 =================================================================================
 
-Keep three things in mind - Notifier(concrete components), BaseNotifier(Abstract decorator)
+Keep three things in mind - Notifier(concrete components), BaseDecorator(Abstract decorator)
 and CustomDecorator(concrete decorator)
 INotifier(component) is the single interface for both wrappers and wrapped objects.
 Notifier is a basic notifier class. Notifier is the one that gets decorated(passed into decorators), using all the custom decorator classes.

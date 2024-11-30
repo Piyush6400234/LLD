@@ -6,7 +6,7 @@ public class Card {
     private int expiryDate;
     private String cardHolderName;
     private UserBankAccount userBankAccount;
-    private static final int PIN = 1234;
+    private int PIN = 1234;
 
     public Card(){ // can pass different parameters here like, cvv, cardNumber, expDate, cardHolder's Name, BankAccount etc. PIN
 

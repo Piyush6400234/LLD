@@ -4,39 +4,58 @@ Design  Parking Lot
 Design  Snake n Ladder game
 Design Elevator System
 Design Car Rental System
-Design Logging System
+Design Logging System -----> Important and tough
 Design Tic-Tac-Toe game
 Design BookMyShow & Concurrency handling
 Design Vending Machine
 Design ATM
-Design Chess game
 Design File System
 Design Split-wise
 Split-wise Simplify Algorithm / Optimal Accounting Balancing.
-
-Design True Caller
-Design CarBooking Service like Ola, Uber
-Design Online Hotel Booking System
-Design Library Management system
-Design Traffic Light System
-Design Meeting Scheduler
 Design Online Voting System
+Design Meeting Scheduler
 Design Inventory Management System
-Design Cache Mechanism
-Design LinkedIn
+
+Design Library Management system
+Design Online Hotel Booking System
+Design Chess game
 Design Amazon
-Design Airline Management System
+Design LinkedIn
+Design CarBooking Service like Ola, Uber
+Design Food Delivery app like swiggy
 Design Stock Exchange System
-Design Learning Management System
-Design a calender Application
-Design LLD of Payment system
-Design Chat based system
-Design  Food Delivery app like swiggy
-Design Community discussion Platform
 Design Restaurant Management System
-Design Bowling Alley Machine
+
+
+Design Airline Management System
+Design Learning Management System
+Design Community discussion Platform
+Design Chat based system
 Design LLD of Rate Limiter
 
+Design a calender Application
+Design Cache Mechanism
+Design Traffic Light System
+
+Design True Caller
 
 
+Design LLD of Payment system
+Design Bowling Alley Machine
 Design Snake Game
+
+
+
+-----------------------------------------------------------------------------------------------------------
+4 important things should be present in cold messages which i feel are very important:
+
+1. Some personal touch like Hi Shrayansh, not just Hi Sir/Mam.
+
+2. Why i should refer you, in this generally small 3-4 lines, if we can provide the sense that yes i have gone through the job description and i am best for it, try to add Job level like SDE1, Sde2 etc, skills , yr of experience.
+
+3. Job link
+
+4. Resume pdf and drive link.
+
+Also follow ups plays an important role in increasing the probability of getting a referral.
+------------------------------------------------------------------------------------------------------------

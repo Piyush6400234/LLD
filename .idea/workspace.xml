@@ -5,11 +5,235 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36cd59ef-80ff-4760-b788-d470e5d9c22b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Applications/InventoryManagement/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Amazon/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Exception/InvalidStateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Exception/KeyNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Exception/StorageFullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/HashMapStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Policy/EvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Policy/LRUEvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/algorithms/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/algorithms/DoublyLinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/algorithms/exception/InvalidDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CachingMechanism/factory/CacheFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/CalenderApplication/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/ChessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/InvalidMoveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Piece/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/ChessGame/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookItemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookLending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookLendingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookReservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/BookStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Fine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Librarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/LibraryCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/MemberManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/Rack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/ReservationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LibraryManagementSystem/ReservationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LinkedIn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/LinkedIn/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/DBLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/DebugLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/InfoLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/LogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/LogObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/LogSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Logger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/Meeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/MeetingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/MeetingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/MeetingScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/MeetingSchedulerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/RoomAlreadyAddedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/RoomAlreadyBookedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/RoomManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/MeetingSchedular/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/GuestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/HotelManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Payments/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Payments/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Payments/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/ReservationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/ReservationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/RoomManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/RoomStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineHotelBookingSystem/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/AuthenticationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/Ballot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/BallotObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/BasicEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/CandidateDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/CastVoteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/EncryptionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/OnlineVotingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/PasswordAuthenticationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/Voter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/VoterDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/VotingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/OnlineVotingSystem/VotingSystemFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/ISubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/SleepingSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/SubscriberWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/TopicHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/PubSub/TopicSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/LeakyBucket/LeakyBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/LeakyBucket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/LeakyBucket/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/LeakyBucket/UserBucketCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/SlidingWindow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/SlidingWindow/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/SlidingWindow/SlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/SlidingWindow/UserBucketCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/TokenBucket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/TokenBucket/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/TokenBucket/TokenBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/RateLimiter/TokenBucket/UserBucketCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/ExchangeConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/ExchangeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/MarketData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/OrderExecutioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/OrderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/OrderValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/StockBrokers/UserInfoSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/CuisineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/DeliveryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/DeliveryMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/DeliveryPartner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/DeliveryPartnerMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/DishAddOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/FoodManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/IDeliveryPartnerMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/INotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Ipartner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/LocBasedDeliveryPartnerMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/NotificationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/RestaurantManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/RestaurantOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/StrategyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/pushNotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Swiggy/smsNotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/DefaultPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/DriverMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/LeastTimeBasedMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/PricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/RiderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/StrategyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/TripManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/TripMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/TripStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/Uber/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/BalanceSheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/ExpenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/ExpenseSplitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/SplitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/split/EqualExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/split/ExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/split/PercentageExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/split/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Expense/split/UnequalExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Group/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/Splitwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/User/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/UserExpenseBalanceSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applications/splitwise/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/first/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/fourth/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/fourth/ContactData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/fourth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/second/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/second/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/third/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Collections/third/PlayingCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/Eighth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/Ninth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/fifth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/first/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/fourth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/fourth/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/second/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/seventh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/sixth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/third/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Lambdas/third/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/CarRental/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/CarRental/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applications/cricbuzz/Innings/BallDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/cricbuzz/Innings/BallDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Applications/ATM/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/ATM/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Applications/designs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applications/designs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/decorator/notifiers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/decorator/notifiers/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +245,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -39,100 +264,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Applications.ATM.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Applications.BookMyShow.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Applications.CarRental.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Applications.InventoryManagement.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Applications.ParkingLot.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Applications.TicTacToe.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Applications.snakeAndLadder.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.ChainOfResponsibility.ITSupportHandler.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Command.AirConditionerWithUndo.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Command.SmartHome.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Command.TextEditor.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Command.UberRide.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Iterator.AmazonInventory.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Iterator.Library.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Memento.Editor.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.State.Ride.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.State.VendingMachine.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Visitor.RoomMaintenance.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.Visitor.ShoppingCart.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.observer.NewWithChannels.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.observer.Weather.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.strategy.Payments.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Behavioral.template.Bevarage.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumAdvancedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.abstractFactory.Car.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.abstractFactory.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.builder.cars.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.builder.url.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.factory.courses.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.factory.motor.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.prototype.employeecloneable.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.creational.prototype.sheep.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.practice.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.snakeAndLadder.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.Flyweight.Fonts.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.Proxy.LazyInitialization.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.Proxy.ProtectionProxy.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.adapter.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.adapter.music.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.bridge.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.bridge.shape.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.composite.Airthmetic.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.composite.Files.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.structural.decorator.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/piyus/Desktop/system_design/system&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/piyus/Desktop/system_design/system/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Applications.ATM.Main.executor": "Run",
+    "Application.Applications.BookMyShow.Main.executor": "Run",
+    "Application.Applications.CarRental.Main.executor": "Run",
+    "Application.Applications.ChessGame.Main.executor": "Run",
+    "Application.Applications.InventoryManagement.Main.executor": "Run",
+    "Application.Applications.LibraryManagementSystem.Main.executor": "Run",
+    "Application.Applications.Logger.Main.executor": "Run",
+    "Application.Applications.OnlineVotingSystem.Main.executor": "Run",
+    "Application.Applications.ParkingLot.Main.executor": "Run",
+    "Application.Applications.PubSub.Main.executor": "Run",
+    "Application.Applications.RateLimiter.LeakyBucket.Main.executor": "Run",
+    "Application.Applications.RateLimiter.SlidingWindow.Main.executor": "Run",
+    "Application.Applications.RateLimiter.TokenBucket.Main.executor": "Run",
+    "Application.Applications.StockBrokers.Main.executor": "Run",
+    "Application.Applications.Swiggy.Main.executor": "Run",
+    "Application.Applications.TicTacToe.Main.executor": "Run",
+    "Application.Applications.Uber.Main.executor": "Run",
+    "Application.Applications.snakeAndLadder.Main.executor": "Run",
+    "Application.Behavioral.ChainOfResponsibility.ITSupportHandler.Main.executor": "Run",
+    "Application.Behavioral.Command.AirConditionerWithUndo.Main.executor": "Run",
+    "Application.Behavioral.Command.SmartHome.Main.executor": "Run",
+    "Application.Behavioral.Command.TextEditor.Main.executor": "Run",
+    "Application.Behavioral.Command.UberRide.Main.executor": "Run",
+    "Application.Behavioral.Iterator.AmazonInventory.Main.executor": "Run",
+    "Application.Behavioral.Iterator.Library.Main.executor": "Run",
+    "Application.Behavioral.Memento.Editor.Main.executor": "Run",
+    "Application.Behavioral.State.Document.Main.executor": "Run",
+    "Application.Behavioral.State.Ride.Main.executor": "Run",
+    "Application.Behavioral.State.VendingMachine.Main.executor": "Run",
+    "Application.Behavioral.Visitor.RoomMaintenance.Main.executor": "Run",
+    "Application.Behavioral.Visitor.ShoppingCart.Main.executor": "Run",
+    "Application.Behavioral.observer.NewWithChannels.Main.executor": "Run",
+    "Application.Behavioral.observer.Weather.Main.executor": "Run",
+    "Application.Behavioral.strategy.Payments.Main.executor": "Run",
+    "Application.Behavioral.template.Bevarage.Main.executor": "Run",
+    "Application.EnumAdvancedExample.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.creational.abstractFactory.Car.Main.executor": "Run",
+    "Application.creational.abstractFactory.Main.executor": "Run",
+    "Application.creational.builder.cars.Main.executor": "Run",
+    "Application.creational.builder.url.Main.executor": "Run",
+    "Application.creational.factory.courses.Main.executor": "Run",
+    "Application.creational.factory.motor.Main.executor": "Run",
+    "Application.creational.prototype.employeecloneable.Main.executor": "Run",
+    "Application.creational.prototype.sheep.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.practice.Collections.first.Main.executor": "Run",
+    "Application.practice.Collections.second.Main.executor": "Run",
+    "Application.practice.Collections.third.Main.executor": "Run",
+    "Application.practice.Eighth.Main.executor": "Run",
+    "Application.practice.Main (1).executor": "Run",
+    "Application.practice.Main.executor": "Run",
+    "Application.practice.Ninth.Main.executor": "Run",
+    "Application.practice.fifth.Main.executor": "Run",
+    "Application.practice.fourth.Main.executor": "Run",
+    "Application.practice.second.Main.executor": "Debug",
+    "Application.practice.sixth.Main.executor": "Run",
+    "Application.practice.third.Main.executor": "Run",
+    "Application.snakeAndLadder.Main.executor": "Run",
+    "Application.structural.Flyweight.Fonts.Main.executor": "Run",
+    "Application.structural.Proxy.LazyInitialization.Main.executor": "Run",
+    "Application.structural.Proxy.ProtectionProxy.Main.executor": "Run",
+    "Application.structural.adapter.Main.executor": "Run",
+    "Application.structural.adapter.music.Main.executor": "Run",
+    "Application.structural.bridge.Main.executor": "Run",
+    "Application.structural.bridge.shape.Main.executor": "Run",
+    "Application.structural.composite.Airthmetic.Main.executor": "Run",
+    "Application.structural.composite.Files.Main.executor": "Run",
+    "Application.structural.decorator.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/piyus/Desktop/system_design/system",
+    "onboarding.tips.debug.path": "C:/Users/piyus/Desktop/system_design/system/src/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
-}</component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Applications.InventoryManagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Applications.InventoryManagement.Main" />
-      <module name="system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Applications.InventoryManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Applications.ParkingLot.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Applications.ParkingLot.Main" />
-      <module name="system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Applications.ParkingLot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.cars.Main" />
+      <option name="MAIN_CLASS_NAME" value="practice.Collections.fourth.Main" />
       <module name="system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.builder.cars.*" />
+          <option name="PATTERN" value="practice.Collections.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.abstractFactory.Car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.Car.Main" />
+    <configuration name="practice.Collections.first.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Collections.first.Main" />
       <module name="system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.abstractFactory.Car.*" />
+          <option name="PATTERN" value="practice.Collections.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +375,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Applications.cricbuzz.main" />
+    <configuration name="practice.Collections.second.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Collections.second.Main" />
       <module name="system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Applications.cricbuzz.*" />
+          <option name="PATTERN" value="practice.Collections.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.Collections.third.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Collections.third.Main" />
+      <module name="system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.Collections.third.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.Lambdas.Ninth.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Lambdas.Ninth.Main" />
+      <module name="system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.Lambdas.Ninth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Applications.ParkingLot.Main" />
-        <item itemvalue="Application.Applications.InventoryManagement.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.creational.abstractFactory.Car.Main" />
+        <item itemvalue="Application.practice.Collections.third.Main" />
+        <item itemvalue="Application.practice.Collections.second.Main" />
+        <item itemvalue="Application.practice.Collections.first.Main" />
+        <item itemvalue="Application.practice.Lambdas.Ninth.Main" />
       </list>
     </recent_temporary>
   </component>
